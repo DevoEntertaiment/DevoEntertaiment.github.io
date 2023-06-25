@@ -20,19 +20,19 @@ body
 }
 .tab, .tab-title {
     display: inline-block; /* Выстраиваем по горизонтали */
-    background-color: royalblue;
-    
-    
+    /* background-color: royalblue; */
+    border-radius: 20%;
+    margin: 5px;
 }
 .tab input[type="radio"] { display: none; }
 .tab-title {
     background: #203de0; /* Цвет фона */
     padding: 5px 10px; /* Поля вокруг текста */
-    border: 1px solid #666; /* Параметры рамки */
     border-bottom: none; /* Снизу линию убираем */
+    border-radius: 8px;
 }
 .tab-content {
-    background-color: #174675; 
+    background-color: #174675;
     margin-bottom: 20px;
 
     position: absolute; /* Абсолютное позиционирование */
